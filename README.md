@@ -1,4 +1,4 @@
-# Test Universal!
+# Test Universal
 
 ## microservice
 
@@ -93,3 +93,18 @@
 | SubFolder | static-website-build |
 | BuildFolder | build |
 | Endpoints |  |
+
+
+## mongodb-conn-test-job
+
+| Setting  |  Value  |
+|---|---|
+| Type | Job |
+| SubFolder | mongodb-conn-test-job |
+
+### Environment Variables
+
+| Key  |  Value  |
+|---|---|
+| MONGODB_CONNECTION_STRING | `default:'mongodb://'` |
+| MONGODB_DATABASE_NAME | `default:'admin'` |
