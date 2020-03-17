@@ -1,4 +1,4 @@
-# nginx: An advanced example chart.
+# nginx: An advanced example chart
 
 This Helm chart provides examples of some of Helm's more powerful
 features.
